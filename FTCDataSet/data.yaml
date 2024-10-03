@@ -1,0 +1,13 @@
+train: C:/Users/angel/PycharmProjects/ObjectTrackingAndPrediction/FTCDataSet/train/images
+val: C:/Users/angel/PycharmProjects/ObjectTrackingAndPrediction/FTCDataSet/valid/images
+test: C:/Users/angel/PycharmProjects/ObjectTrackingAndPrediction/FTCDataSet/test/images
+
+nc: 3
+names: ['blue-specimen', 'red-specimen', 'yellow-specimen']
+
+roboflow:
+  workspace: yolo-gd6io
+  project: ftcyolo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-gd6io/ftcyolo/dataset/1
